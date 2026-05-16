@@ -124,7 +124,7 @@ UploadResult uploadFile(const std::wstring& filePath) {
         }
 
         hSession = WinHttpOpen(
-            L"WinHTTP-Client/1.0",
+            L"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
             WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
             nullptr, nullptr, 0
         );
